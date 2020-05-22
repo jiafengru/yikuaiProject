@@ -1,0 +1,35 @@
+.tab-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 48px;
+    background: #F4F4F2;
+    /* background: transparent; */
+    display: flex;
+	padding-bottom: env(safe-area-inset-bottom);
+}
+
+.tab-bar-item {
+	flex: 1;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.tab-bar-item cover-image {
+	width: 18px;
+	height: 18px;
+}
+.tab-bar-item .special {
+	width: 31px;
+	height: 31px;
+}
+
+.tab-bar-item .name {
+	font-size: 10px;
+	margin-top: 5px;
+	font-weight: 500;
+}

@@ -1,0 +1,86 @@
+/* 没有关注 */
+.content{
+    width: 100%;
+    height: 100%;
+    .section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 32rpx;
+        box-sizing: border-box;
+        -webkit-overflow-scrolling: touch;
+        position: relative;
+        .left, .right{
+            width: 328rpx;
+            height: auto;
+            padding-bottom: 80rpx;
+        }
+        .module{
+            width: 100%;
+            height: auto;
+            border-radius: 16rpx;
+            padding-bottom: 14rpx;
+            margin-bottom: 52rpx;
+            overflow: hidden;
+            .imgBox{
+                width: 100%;
+                height: auto;
+            }
+            .title{
+                width: 100%;
+                height: auto;
+                font-size: 26rpx;
+                line-height: 36rpx;
+                color: #2C2C2C;
+                margin: 18rpx auto 22rpx;
+                font-weight: 500;
+            }
+            .message{
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: space-between;
+                .personalMsg{
+                    width: 100%;
+                    height: 30rpx;
+                    display: flex;
+                    image{
+                        width: 30rpx;
+                        height: 30rpx;
+                        display: block;
+                        border-radius: 100%;
+                    }
+                    .nickName{
+                        width: auto;
+                        height: 100%;
+                        font-size: 22rpx;
+                        line-height: 30rpx;
+                        color: #979797;
+                        margin-left: 4rpx;
+                    }
+                }
+                .browsing{
+                    width: 100%;
+                    height: 30rpx;
+                    display: flex;
+                    justify-content: flex-end;
+                    image{
+                        width: 20rpx;
+                        height: 16rpx;
+                        display: block;
+                        align-self: center;
+                    }
+                    .count{
+                        width: auto;
+                        height: 100%;
+                        font-size: 18rpx;
+                        line-height: 30rpx;
+                        color: #979797;
+                        margin-left: 12rpx;
+                    }
+                }
+            }
+        }
+    }
+}

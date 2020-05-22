@@ -1,0 +1,263 @@
+#Box{
+    width: 100%;
+    height: calc(100vh - 48px);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    .search_warp{
+        width: 100%;
+        height: 74rpx;
+        padding: 8rpx 26rpx;
+        box-sizing: border-box;
+        flex-shrink: 0;
+        .searchBox{
+            width: 100%;
+            height: 58rpx;
+            border-radius: 58rpx;
+            background: #F7F7F7;
+            display: flex;
+            padding: 0 30rpx;
+            .searchIcon{
+                width: 30rpx;
+                height: 30rpx;
+                display: block;
+                align-self: center;
+                margin-right: 10rpx;
+            }
+            .search{
+                flex: 1;
+                height: 58rpx;
+                line-height: 58rpx;
+                font-size: 20rpx;
+                color: #A8A8A8;
+            }
+        }
+    }
+    .content{
+        width: 100%;
+        flex: 1;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        .titleName{
+            width: 698rpx;
+            height: 42rpx;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto 26rpx;
+            .title{
+                font-size: 36rpx;
+                line-height: 42rpx;
+                color: #2c2c2c;
+                font-weight: 500;
+                display: flex;
+                image{
+                    width: 42rpx;
+                    height: 42rpx;
+                    display: block;
+                    margin-right: 10rpx;
+                }
+            }
+            .lookMore{
+                font-size: 20rpx;
+                line-height: 42rpx;
+                color: #6C7278;
+            }
+        }
+        .myCommunity{
+            width: 100%;
+            height: auto;
+            margin: 26rpx auto 40rpx;
+            .communityList{
+                width: 100%;
+                height: 276rpx;
+                display: flex;
+                flex-wrap: nowrap;
+                .item{
+                    width: 324rpx;
+                    height: 270rpx;
+                    border-radius: 16rpx;
+                    box-shadow: -2rpx 2rpx 8rpx 0 rgba(1, 1, 1, 0.08);
+                    flex-shrink: 0;
+                    margin: 0 6rpx;
+                    image{
+                        width: 100%;
+                        height: 182rpx;
+                        border-radius: 16rpx 16rpx 0 0;
+                        display: block;
+                    }
+                    .classify{
+                        width: 100%;
+                        font-size: 28rpx;
+                        line-height: 40rpx;
+                        padding: 0 8rpx;
+                        margin: 8rpx 0 4rpx;
+                    }
+                    .count{
+                        width: 100%;
+                        font-size: 18rpx;
+                        line-height: 24rpx;
+                        padding: 0 8rpx;
+                        color: #979797;
+                    }
+                }
+                .item:first-of-type{
+                    margin-left: 26rpx;
+                }
+                .holder{
+                    width: 20rpx;
+                    height: 100%;
+                    flex-shrink: 0;
+                }
+            }
+            
+        }
+        .topicList{
+            width: 698rpx;
+            height: auto;
+            margin: 0 auto;
+            .topicModule{
+                margin-bottom: 40rpx;
+                padding-top: 38rpx;
+            }
+            .module{
+                width: 100%;
+                height: auto;
+                box-shadow: 0 0 10rpx 0 rgba(1, 1, 1, 0.1);
+                border-radius: 16rpx;
+                .list{
+                    width: 100%;
+                    height: auto;
+                    padding: 26rpx 22rpx;
+                    display: flex;
+                    justify-content: space-between;
+                    .left{
+                        flex: 1;
+                        .topicName{
+                            font-size: 28rpx;
+                            line-height: 40rpx;
+                            color: #2c2c2c;
+                            display: flex;
+                            image{
+                                width: 24rpx;
+                                height: 26rpx;
+                                display: block;
+                                align-self: center;
+                                margin-right: 8rpx;
+                            }
+                        }
+                        .topicFrom{
+                            font-size: 20rpx;
+                            line-height: 28rpx;
+                            color: #979797;
+                            margin-top: 4rpx;
+                            padding-left: 32rpx;
+                            box-sizing: border-box;
+                        }
+                    }
+                    .right{
+                        flex: 1;
+                        .imgBox{
+                            display: flex;
+                            justify-content: flex-end;
+                            image{
+                                width: 34rpx;
+                                height: 34rpx;
+                                border-radius: 34rpx;
+                                display: block;
+                                position: relative;
+                                right: -16rpx;
+                            }
+                            image:first-of-type{
+                                right: -32rpx;
+                            }
+                            image:last-of-type{
+                                right: 0;
+                            }
+                        }
+                        .participate{
+                            width: 100%;
+                            font-size: 20rpx;
+                            line-height: 28rpx;
+                            color: #979797;
+                            text-align: right;
+                            margin-top: 8rpx;
+                        }
+                    }
+                }
+            }
+        }
+        .togetherCommunity{
+            margin-top: 80rpx;
+            .communityList{
+                width: 698rpx;
+                height: auto;
+                margin: 0 auto;
+                padding-bottom: 80rpx;
+                .module{
+                    width: 100%;
+                    height: auto;
+                    box-shadow: 0 0 10rpx 0 rgba(1, 1, 1, 0.1);
+                    border-radius: 16rpx;
+                    padding: 32rpx 22rpx;
+                    margin-bottom: 20rpx;
+                    .message{
+                        width: 100%;
+                        height: auto;
+                        display: flex;
+                        justify-content: space-between;
+                        .left{
+                            flex: 1;
+                            .tit{
+                                font-size: 32rpx;
+                                line-height: 44rpx;
+                                margin-bottom: 2rpx;
+                            }
+                            .count{
+                                font-size: 20rpx;
+                                line-height: 28rpx;
+                                color: #979797;
+                                text{
+                                    margin-right: 24rpx;
+                                }
+                            }
+                        }
+                        .attentionStatus{
+                            width: 104rpx;
+                            height: 36rpx;
+                            flex-shrink: 0;
+                            view{
+                                width: 100%;
+                                height: 100%;
+                                border-radius: 36rpx;
+                                font-size: 24rpx;
+                                text-align: center;
+                                line-height: 36rpx;
+                            }
+                            .attention{
+                                background: $color;
+                                color: #fff;
+                            }
+                            .attentionAble{
+                                border: 1rpx solid $color;
+                                color: #979797;
+                            }
+                        }
+                    }
+                    .imgList{
+                        width: 100%;
+                        height: 210rpx;
+                        display: flex;
+                        justify-content: space-between;
+                        margin-top: 30rpx;
+                        image{
+                            width: 210rpx;
+                            height: 210rpx;
+                            border-radius: 16rpx;
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

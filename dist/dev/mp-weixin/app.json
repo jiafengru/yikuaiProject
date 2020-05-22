@@ -1,0 +1,47 @@
+{
+    "pages": [
+        "pages/coopen/coopen",
+        "pages/index/index",
+        "pages/community/index",
+        "pages/publish/index",
+        "pages/news/index",
+        "pages/personal/index"
+    ],
+    "subPackages": [
+        {
+            "root": "pages/articleDetails/",
+            "pages": [
+                "pages/fineArticle/fineArticle"
+            ]
+        }
+    ],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "一块",
+        "navigationBarBackgroundColor": "#fff",
+        "backgroundColor": "#fff"
+    },
+    "tabBar": {
+        "custom": true,
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "广场"
+            },
+            {
+                "pagePath": "pages/community/index",
+                "text": "社区"
+            },
+            {
+                "pagePath": "pages/news/index",
+                "text": "消息"
+            },
+            {
+                "pagePath": "pages/personal/index",
+                "text": "我的"
+            }
+        ]
+    },
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
+}

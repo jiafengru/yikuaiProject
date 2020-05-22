@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;;;AAAA;;AAAmB;;AACnB;;AACA;;;;AACAA,UAAU,CAACC,kBAAD,CAAV,C","file":"pages/index/attention.js","sourcesContent":["import 'uni-pages';import '@dcloudio/uni-stat';\nimport Vue from 'vue'\nimport Page from './pages/index/attention.vue'\ncreatePage(Page)"],"sourceRoot":""}

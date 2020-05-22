@@ -1,0 +1,358 @@
+#Box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#content{
+    width: 100%;
+    flex: 1;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    .personInfo{
+        width: 100%;
+        height: auto;
+        padding: 6rpx 26rpx 0;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        .message{
+            display: flex;
+            .headUrl{
+                width: 90rpx;
+                height: 90rpx;
+                border-radius: 90rpx;
+                display: block;
+                margin-right: 20rpx;
+            }
+            .userInfo{
+                .nickName{
+                    font-size: 28rpx;
+                    line-height: 40rpx;
+                    color: #2c2c2c;
+                    margin-top: 10rpx;
+                }
+                .ps{
+                    font-size: 20rpx;
+                    line-height: 28rpx;
+                    color: #979797;
+                }
+            }
+        }
+        .operation{
+            display: flex;
+            .attentionBox{
+                width: 104rpx;
+                height: 36rpx;
+                flex-shrink: 0;
+                align-self: center;
+                margin-right: 32rpx;
+                view{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 36rpx;
+                    font-size: 24rpx;
+                    text-align: center;
+                    line-height: 36rpx;
+                }
+                .attention{
+                    background: $color;
+                    color: #fff;
+                }
+                .attentionAble{
+                    border: 1rpx solid $color;
+                    color: #979797;
+                }
+            }
+            .more{
+                width: 32rpx;
+                height: 8rpx;
+                display: flex;
+                justify-content: space-between;
+                align-self: center;
+                view{
+                    width: 8rpx;
+                    height: 8rpx;
+                    background: #2c2c2c;
+                    border-radius: 8rpx;
+                }
+            }
+        }
+    }
+    .artImgBox{
+        width: 100%;
+        height: auto;
+        position: relative;
+        .artImgList{
+            width: 100%;
+            height: 824rpx;
+            .listItem{
+                width: 100%;
+                height: 100%;
+                .contanier{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    image{
+                        width: 100%;
+                        display: block;
+                        margin: 0 auto;
+                        align-self: center;
+                    }
+                }
+            }
+        }
+        .count{
+            width: 68rpx;
+            height: 28rpx;
+            background: rgba(140, 140, 140, 0.7);
+            border-radius: 28rpx;
+            font-size: 20rpx;
+            line-height: 28rpx;
+            text-align: center;
+            color: #fff;
+            position: absolute;
+            right: 26rpx;
+            top: 18rpx;
+        }
+        .swiperDots{
+            width: 100%;
+            height: 10rpx;
+            display: flex;
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            .dots{
+                width: 10rpx;
+                height: 10rpx;
+                margin: 0 4rpx;
+                background: #979797;
+                border-radius: 10rpx;
+            }
+            .dotsActive{
+                background: #2c2c2c;
+            }
+        }
+    }
+    .artContent{
+        width: 698rpx;
+        height: auto;
+        margin: 46rpx auto 0;
+        .title{
+            width: 100%;
+            height: auto;
+            font-size: 32rpx;
+            line-height: 44rpx;
+            color: #2c2c2c;
+            font-weight: 500;
+            margin-bottom: 6rpx;
+        }
+        .paragraph{
+            width: 100%;
+            height: auto;
+            font-size: 30rpx;
+            line-height: 42rpx;
+            color: #2c2c2c;
+            margin-bottom: 40rpx;
+        }
+        .paragraph:last-of-type{
+            margin-bottom: 28rpx;
+        }
+    }
+    .topicBox{
+        width: 100%;
+        height: auto;
+        display: flex;
+        padding: 0 26rpx;
+        box-sizing: border-box;
+        .topicList{
+            width: auto;
+            height: 40rpx;
+            background: rgba(82, 172, 158, 0.2);
+            border-radius: 40rpx;
+            display: flex;
+            padding: 0 12rpx 0 6rpx;
+            margin-right: 32rpx;
+            image{
+                width: 32rpx;
+                height: 32rpx;
+                display: block;
+                margin-right: 10rpx;
+                align-self: center;
+            }
+            .name{
+                font-size: 24rpx;
+                align-self: center;
+                color: #52AC9E;
+            }
+        }
+    }
+    .time{
+        width: 698rpx;
+        height: auto;
+        display: flex;
+        font-size: 24rpx;
+        line-height: 34rpx;
+        color: #979797;
+        font-weight: 500;
+        margin: 30rpx auto 0;
+        padding-bottom: 30rpx;
+        border-bottom: 1rpx solid #E8E8E8;
+    }
+    .commentBox{
+        width: 698rpx;
+        height: auto;
+        margin: 28rpx auto 0;
+        .commentCount{
+            width: 100%;
+            height: auto;
+            font-size: 28rpx;
+            line-height: 40rpx;
+            color: #979797;
+        }
+        .commentModule{
+            width: 100%;
+            height: auto;
+            padding-bottom: 80rpx;
+            .module{
+                width: 100%;
+                height: auto;
+                padding-bottom: 20rpx;
+                border-bottom: 1rpx solid #E8E8E8;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20rpx;
+                .headUrl{
+                    width: 46rpx;
+                    height: 46rpx;
+                    border-radius: 46rpx;
+                    margin-right: 10rpx;
+                    display: block;
+                }
+                .moduleMsg{
+                    flex: 1;
+                    height: auto;
+                    .msgTop{
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        .userName{
+                            font-size: 28rpx;
+                            line-height: 40rpx;
+                            color: #979797;
+                        }
+                        .lineTxt{
+                            font-size: 28rpx;
+                            line-height: 40rpx;
+                            color: #2c2c2c;
+                        }
+                        .right{
+                            width: auto;
+                            margin-left: 20rpx;
+                            image{
+                                width: 32rpx;
+                                height: 28rpx;
+                                display: block;
+                                margin: 14rpx auto 0;
+                            }
+                            .number{
+                                width: 100%;
+                                text-align: center;
+                                font-size: 24rpx;
+                                line-height: 34rpx;
+                                color: #2c2c2c;
+                            }
+                        }
+                    }
+                    .reply{
+                        width: 100%;
+                        height: auto;
+                        background: rgba(185, 185, 185, 0.3);
+                        border-radius: 6rpx;
+                        padding: 14rpx 24rpx 18rpx;
+                        box-sizing: border-box;
+                        margin-top: 10rpx;
+                        .replyTxt{
+                            font-size: 28rpx;
+                            line-height: 40rpx;
+                            color: #2c2c2c;
+                            margin-bottom: 10rpx;
+                            text{
+                                color: #979797;
+                            }
+                        }
+                        .replyTxt1{
+                            font-size: 24rpx;
+                            line-height: 34rpx;
+                            color: #2c2c2c;
+                        }
+                    }
+                }
+            }
+            .module:last-of-type{
+                border-bottom: none;
+            }
+        }
+    }
+}
+
+#footer{
+    width: 100%;
+    height: 48px;
+    flex-shrink: 0;
+    box-shadow: 0 0 8rpx 0 rgba(44, 44, 44, 0.25);
+    padding: 0 26rpx;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+	padding-bottom: env(safe-area-inset-bottom);
+    .inputBox{
+        width: 290rpx;
+        height: 52rpx;
+        border-radius: 52rpx;
+        border: 1rpx solid #979797;
+        align-self: center;
+        padding: 0 26rpx;
+        box-sizing: border-box;
+        display: flex;
+        image{
+            width: 28rpx;
+            height: 28rpx;
+            display: block;
+            align-self: center;
+        }
+        input{
+            flex: 1;
+            height: 100%;
+            padding-left: 10rpx;
+            box-sizing: border-box;
+            font-size: 16rpx;
+        }
+    }
+    .collectBox{
+        flex: 1;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        .collectItem{
+            align-self: center;
+            display: flex;
+            margin-left: 18rpx;
+            image{
+                width: 42rpx;
+                height: 42rpx;
+                display: block;
+                margin-right: 10rpx;
+            }
+            .number{
+                font-size: 24rpx;
+                line-height: 42rpx;
+                color: #2c2c2c;
+            }
+        }
+    }
+}

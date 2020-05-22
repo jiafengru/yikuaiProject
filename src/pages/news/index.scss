@@ -1,0 +1,59 @@
+#Box{
+    width: 100%;
+    height: calc(100vh - 48px);
+    .content{
+        width: 100%;
+        height: auto;
+        background: #fff;
+        padding: 24rpx 0;
+        box-sizing: border-box;
+        .list{
+            width: 100%;
+            height: 104rpx;
+            display: flex;
+            padding-left: 26rpx;
+            box-sizing: border-box;
+            margin-bottom: 34rpx;
+            .icon{
+                width: 82rpx;
+                height: 82rpx;
+                display: block;
+                margin-right: 10rpx;
+                align-self: center;
+            }
+            .information{
+                flex: 1;
+                height: 100%;
+                padding-right: 26rpx;
+                box-sizing: border-box;
+                position: relative;
+                .tit{
+                    width: 100%;
+                    font-size: 28rpx;
+                    line-height: 104rpx;
+                    color: #2c2c2c;
+                }
+                .count{
+                    width: 36rpx;
+                    height: 28rpx;
+                    font-size: 20rpx;
+                    line-height: 28rpx;
+                    text-align: center;
+                    background: #FE3B2F;
+                    border-radius: 8rpx;
+                    color: #fff;
+                    position: absolute;
+                    top: 50%;
+                    margin-top: -14rpx;
+                    right: 26rpx;
+                }
+            }
+        }
+        .list:last-of-type{
+            margin-bottom: 0;
+            .information{
+                border-bottom: none;
+            }
+        }
+    }
+}

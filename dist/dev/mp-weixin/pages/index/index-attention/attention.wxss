@@ -1,0 +1,166 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 主题颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 没有关注 */
+.noneContent.data-v-1b9d5cbe {
+  width: 100%;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+.noneContent .attention_warp.data-v-1b9d5cbe {
+  width: 698rpx;
+  height: auto;
+  margin: 0 auto 80rpx;
+  padding: 64rpx 0 92rpx;
+  box-sizing: border-box;
+  border-bottom: 1rpx solid #E8E8E8;
+}
+.noneContent .attention_warp image.data-v-1b9d5cbe {
+  width: 100rpx;
+  height: 116rpx;
+  display: block;
+  margin: 0 auto 18rpx;
+}
+.noneContent .attention_warp .txt.data-v-1b9d5cbe {
+  width: 100%;
+  height: auto;
+  font-size: 20rpx;
+  line-height: 20rpx;
+  color: #979797;
+  text-align: center;
+}
+.noneContent .recommend_warp.data-v-1b9d5cbe {
+  width: 100%;
+  height: auto;
+  padding: 0 26rpx;
+  box-sizing: border-box;
+}
+.noneContent .recommend_warp .titleName.data-v-1b9d5cbe {
+  width: 100%;
+  height: auto;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  color: #2c2c2c;
+  font-weight: 500;
+  margin-bottom: 10rpx;
+}
+.noneContent .recommend_warp .recommendList.data-v-1b9d5cbe {
+  width: 100%;
+  height: auto;
+  padding-bottom: 80rpx;
+}
+.noneContent .recommend_warp .recommendList .listItem.data-v-1b9d5cbe {
+  width: 100%;
+  height: 358rpx;
+  padding: 44rpx 16rpx 0;
+  box-sizing: border-box;
+}
+.noneContent .recommend_warp .recommendList .listItem .personInfo.data-v-1b9d5cbe {
+  width: 100%;
+  height: 76rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-bottom: 34rpx;
+}
+.noneContent .recommend_warp .recommendList .listItem .personInfo .userInfo.data-v-1b9d5cbe {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.noneContent .recommend_warp .recommendList .listItem .personInfo .userInfo .headUrl.data-v-1b9d5cbe {
+  width: 76rpx;
+  height: 76rpx;
+  border-radius: 76rpx;
+  display: block;
+  margin-right: 10rpx;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+}
+.noneContent .recommend_warp .recommendList .listItem .personInfo .userInfo .message.data-v-1b9d5cbe {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  height: 100%;
+}
+.noneContent .recommend_warp .recommendList .listItem .personInfo .userInfo .message .nickName.data-v-1b9d5cbe {
+  font-size: 24rpx;
+  line-height: 34rpx;
+  margin: 8rpx 0 4rpx;
+}
+.noneContent .recommend_warp .recommendList .listItem .personInfo .userInfo .message .signature.data-v-1b9d5cbe {
+  font-size: 16rpx;
+  line-height: 22rpx;
+  color: #979797;
+}
+.noneContent .recommend_warp .recommendList .listItem .personInfo .attentionBox.data-v-1b9d5cbe {
+  width: 104rpx;
+  height: 36rpx;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  margin: 20rpx 0 20rpx 20rpx;
+}
+.noneContent .recommend_warp .recommendList .listItem .personInfo .attentionBox view.data-v-1b9d5cbe {
+  width: 100%;
+  height: 100%;
+  border-radius: 36rpx;
+  font-size: 24rpx;
+  text-align: center;
+  line-height: 36rpx;
+}
+.noneContent .recommend_warp .recommendList .listItem .personInfo .attentionBox .attention.data-v-1b9d5cbe {
+  background: #52AC9E;
+  color: #fff;
+}
+.noneContent .recommend_warp .recommendList .listItem .personInfo .attentionBox .attentionAble.data-v-1b9d5cbe {
+  border: 1rpx solid #52AC9E;
+  color: #979797;
+}
+.noneContent .recommend_warp .recommendList .listItem .imgList.data-v-1b9d5cbe {
+  width: 100%;
+  height: 156rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.noneContent .recommend_warp .recommendList .listItem .imgList image.data-v-1b9d5cbe {
+  width: 156rpx;
+  height: 156rpx;
+  border-radius: 16rpx;
+  display: block;
+}
+

@@ -1,0 +1,340 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 主题颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+#Box.data-v-3011b458 {
+  width: 100%;
+  height: calc(100vh - 48px);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+#Box .search_warp.data-v-3011b458 {
+  width: 100%;
+  height: 74rpx;
+  padding: 8rpx 26rpx;
+  box-sizing: border-box;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+}
+#Box .search_warp .searchBox.data-v-3011b458 {
+  width: 100%;
+  height: 58rpx;
+  border-radius: 58rpx;
+  background: #F7F7F7;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 0 30rpx;
+}
+#Box .search_warp .searchBox .searchIcon.data-v-3011b458 {
+  width: 30rpx;
+  height: 30rpx;
+  display: block;
+  -webkit-align-self: center;
+          align-self: center;
+  margin-right: 10rpx;
+}
+#Box .search_warp .searchBox .search.data-v-3011b458 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  height: 58rpx;
+  line-height: 58rpx;
+  font-size: 20rpx;
+  color: #A8A8A8;
+}
+#Box .content.data-v-3011b458 {
+  width: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+#Box .content .titleName.data-v-3011b458 {
+  width: 698rpx;
+  height: 42rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin: 0 auto 26rpx;
+}
+#Box .content .titleName .title.data-v-3011b458 {
+  font-size: 36rpx;
+  line-height: 42rpx;
+  color: #2c2c2c;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+#Box .content .titleName .title image.data-v-3011b458 {
+  width: 42rpx;
+  height: 42rpx;
+  display: block;
+  margin-right: 10rpx;
+}
+#Box .content .titleName .lookMore.data-v-3011b458 {
+  font-size: 20rpx;
+  line-height: 42rpx;
+  color: #6C7278;
+}
+#Box .content .myCommunity.data-v-3011b458 {
+  width: 100%;
+  height: auto;
+  margin: 26rpx auto 40rpx;
+}
+#Box .content .myCommunity .communityList.data-v-3011b458 {
+  width: 100%;
+  height: 276rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+}
+#Box .content .myCommunity .communityList .item.data-v-3011b458 {
+  width: 324rpx;
+  height: 270rpx;
+  border-radius: 16rpx;
+  box-shadow: -2rpx 2rpx 8rpx 0 rgba(1, 1, 1, 0.08);
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  margin: 0 6rpx;
+}
+#Box .content .myCommunity .communityList .item image.data-v-3011b458 {
+  width: 100%;
+  height: 182rpx;
+  border-radius: 16rpx 16rpx 0 0;
+  display: block;
+}
+#Box .content .myCommunity .communityList .item .classify.data-v-3011b458 {
+  width: 100%;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  padding: 0 8rpx;
+  margin: 8rpx 0 4rpx;
+}
+#Box .content .myCommunity .communityList .item .count.data-v-3011b458 {
+  width: 100%;
+  font-size: 18rpx;
+  line-height: 24rpx;
+  padding: 0 8rpx;
+  color: #979797;
+}
+#Box .content .myCommunity .communityList .item.data-v-3011b458:first-of-type {
+  margin-left: 26rpx;
+}
+#Box .content .myCommunity .communityList .holder.data-v-3011b458 {
+  width: 20rpx;
+  height: 100%;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+}
+#Box .content .topicList.data-v-3011b458 {
+  width: 698rpx;
+  height: auto;
+  margin: 0 auto;
+}
+#Box .content .topicList .topicModule.data-v-3011b458 {
+  margin-bottom: 40rpx;
+  padding-top: 38rpx;
+}
+#Box .content .topicList .module.data-v-3011b458 {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 10rpx 0 rgba(1, 1, 1, 0.1);
+  border-radius: 16rpx;
+}
+#Box .content .topicList .module .list.data-v-3011b458 {
+  width: 100%;
+  height: auto;
+  padding: 26rpx 22rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+#Box .content .topicList .module .list .left.data-v-3011b458 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+#Box .content .topicList .module .list .left .topicName.data-v-3011b458 {
+  font-size: 28rpx;
+  line-height: 40rpx;
+  color: #2c2c2c;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+#Box .content .topicList .module .list .left .topicName image.data-v-3011b458 {
+  width: 24rpx;
+  height: 26rpx;
+  display: block;
+  -webkit-align-self: center;
+          align-self: center;
+  margin-right: 8rpx;
+}
+#Box .content .topicList .module .list .left .topicFrom.data-v-3011b458 {
+  font-size: 20rpx;
+  line-height: 28rpx;
+  color: #979797;
+  margin-top: 4rpx;
+  padding-left: 32rpx;
+  box-sizing: border-box;
+}
+#Box .content .topicList .module .list .right.data-v-3011b458 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+#Box .content .topicList .module .list .right .imgBox.data-v-3011b458 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+#Box .content .topicList .module .list .right .imgBox image.data-v-3011b458 {
+  width: 34rpx;
+  height: 34rpx;
+  border-radius: 34rpx;
+  display: block;
+  position: relative;
+  right: -16rpx;
+}
+#Box .content .topicList .module .list .right .imgBox image.data-v-3011b458:first-of-type {
+  right: -32rpx;
+}
+#Box .content .topicList .module .list .right .imgBox image.data-v-3011b458:last-of-type {
+  right: 0;
+}
+#Box .content .topicList .module .list .right .participate.data-v-3011b458 {
+  width: 100%;
+  font-size: 20rpx;
+  line-height: 28rpx;
+  color: #979797;
+  text-align: right;
+  margin-top: 8rpx;
+}
+#Box .content .togetherCommunity.data-v-3011b458 {
+  margin-top: 80rpx;
+}
+#Box .content .togetherCommunity .communityList.data-v-3011b458 {
+  width: 698rpx;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 80rpx;
+}
+#Box .content .togetherCommunity .communityList .module.data-v-3011b458 {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 10rpx 0 rgba(1, 1, 1, 0.1);
+  border-radius: 16rpx;
+  padding: 32rpx 22rpx;
+  margin-bottom: 20rpx;
+}
+#Box .content .togetherCommunity .communityList .module .message.data-v-3011b458 {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+#Box .content .togetherCommunity .communityList .module .message .left.data-v-3011b458 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+#Box .content .togetherCommunity .communityList .module .message .left .tit.data-v-3011b458 {
+  font-size: 32rpx;
+  line-height: 44rpx;
+  margin-bottom: 2rpx;
+}
+#Box .content .togetherCommunity .communityList .module .message .left .count.data-v-3011b458 {
+  font-size: 20rpx;
+  line-height: 28rpx;
+  color: #979797;
+}
+#Box .content .togetherCommunity .communityList .module .message .left .count text.data-v-3011b458 {
+  margin-right: 24rpx;
+}
+#Box .content .togetherCommunity .communityList .module .message .attentionStatus.data-v-3011b458 {
+  width: 104rpx;
+  height: 36rpx;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+}
+#Box .content .togetherCommunity .communityList .module .message .attentionStatus view.data-v-3011b458 {
+  width: 100%;
+  height: 100%;
+  border-radius: 36rpx;
+  font-size: 24rpx;
+  text-align: center;
+  line-height: 36rpx;
+}
+#Box .content .togetherCommunity .communityList .module .message .attentionStatus .attention.data-v-3011b458 {
+  background: #52AC9E;
+  color: #fff;
+}
+#Box .content .togetherCommunity .communityList .module .message .attentionStatus .attentionAble.data-v-3011b458 {
+  border: 1rpx solid #52AC9E;
+  color: #979797;
+}
+#Box .content .togetherCommunity .communityList .module .imgList.data-v-3011b458 {
+  width: 100%;
+  height: 210rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-top: 30rpx;
+}
+#Box .content .togetherCommunity .communityList .module .imgList image.data-v-3011b458 {
+  width: 210rpx;
+  height: 210rpx;
+  border-radius: 16rpx;
+  display: block;
+}
+

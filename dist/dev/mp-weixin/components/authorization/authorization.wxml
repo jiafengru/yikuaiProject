@@ -1,0 +1,1 @@
+<block wx:if="{{authorizationStatus}}"><view class="authorization data-v-03320a03"><button open-type="getUserInfo" data-event-opts="{{[['getuserinfo',[['getUserInfo',['$event']]]]]}}" bindgetuserinfo="__e" class="data-v-03320a03">微信授权</button></view></block>

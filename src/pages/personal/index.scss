@@ -1,0 +1,249 @@
+button{
+    border-radius: 0;
+}
+#Box{
+    width: 100%;
+    height: calc(100vh - 48px);
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    #topBar{
+        width: 100%;
+        height: 56px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        font-size: 32rpx;
+        color: #2c2c2c;
+        font-weight: bold;
+        text-align: center;
+        line-height: 56px;
+        background: #fff;
+        z-index: 9999;
+    }
+    .diyHomePage{
+        width: 100%;
+        height: 290rpx;
+        background: url(https://cyahua.oss-cn-beijing.aliyuncs.com/yikuai/1.jpg) no-repeat;
+        background-size: cover;
+        position: relative;
+        /*草稿箱*/
+        .drafts{
+            width: 38rpx;
+            height: 36rpx;
+            display: block;
+            position: absolute;
+            right: 26rpx;
+            bottom: 2rpx;
+        }
+    }
+    .personalInfo{
+        width: 702rpx;
+        height: auto;
+        padding: 0 0 32rpx;
+        box-sizing: border-box;
+        border-bottom: 1rpx solid #E8E8E8;
+        position: relative;
+        margin: 0 auto 32rpx;
+        .infoTop{
+            width: 100%;
+            height: 102rpx;
+            display: flex;
+            .header{
+                width: 136rpx;
+                height: 136rpx;
+                border-radius: 140rpx;
+                border: 2rpx solid #fff;
+                position: relative;
+                top: -38rpx;
+                image{
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                    border-radius: 100%;
+                }
+            }
+            .dataCount{
+                flex: 1;
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+                margin-left: 84rpx;
+                padding-top: 28rpx;
+                box-sizing: border-box;
+                .countBox{
+                    flex: 1;
+                    text-align: center;
+                    color: #2c2c2c;
+                    .number{
+                        font-size: 24rpx;
+                        line-height: 34rpx;
+                        font-weight: 500;
+                    }
+                    .name{
+                        font-size: 18rpx;
+                        line-height: 18rpx;
+                    }
+                }
+            }
+        }
+        .nickName{
+            width: 100%;
+            height: auto;
+            font-size: 24rpx;
+            line-height: 34rpx;
+            color: #2c2c2c;
+            font-weight: 500;
+            margin-top: 20rpx;
+        }
+        .personalPs{
+            width: 100%;
+            height: auto;
+            font-size: 16rpx;
+            line-height: 22rpx;
+            color: #2c2c2c;
+            margin: 6rpx 0;
+        }
+        .editProfileBox{
+            width: 100%;
+            height: 52rpx;
+            display: flex;
+            justify-content: flex-end;
+            .editProfile{
+                width: 190rpx;
+                height: 100%;
+                border: 1rpx solid #E8E8E8;
+                border-radius: 52rpx;
+                text-align: center;
+                line-height: 52rpx;
+                font-size: 24rpx;
+                color: #2c2c2c;
+                text-align: center;
+            }
+        }
+    }
+    #navigationBar{
+        width: 100%;
+        height: auto;
+        background: #fff;
+        z-index: 10;
+        position: sticky;/* 这个是吸顶粘附关键属性 */
+        top: 56px;
+        .navigationCon{
+            width: 698rpx;
+            height: 100%;
+            display: flex;
+            margin: 0 auto;
+            position: relative;
+            .list{
+                flex: 1;
+                text-align: center;
+                line-height: 104rpx;
+                color: #979797;
+                font-size: 28rpx;
+                font-weight: 500;
+            }
+            .active{
+                font-size: 32rpx;
+                color: #2c2c2c;
+            }
+            .line{
+                width: 30rpx;
+                height: 4rpx;
+                border-radius: 4rpx;
+                position: absolute;
+                bottom: 18rpx;
+                transform: translateX(46.16px);
+                transition: all 0.5s;
+                background: $color;
+            }
+        }
+    }
+    .mainContent{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 32rpx;
+        box-sizing: border-box;
+        .left, .right{
+            width: 328rpx;
+            height: auto;
+            padding-bottom: 80rpx;
+        }
+        .module{
+            width: 100%;
+            height: auto;
+            border-radius: 16rpx;
+            background: #fff;
+            padding-bottom: 14rpx;
+            margin-bottom: 42rpx;
+            overflow: hidden;
+            .imgBox{
+                width: 100%;
+                height: auto;
+                border-radius: 16rpx;
+                overflow: hidden;
+                image{
+                    width: 100%;
+                    display: block;
+                }
+            }
+            .title{
+                width: 100%;
+                height: auto;
+                font-size: 26rpx;
+                line-height: 36rpx;
+                color: #2C2C2C;
+                margin: 12rpx auto 14rpx;
+                font-weight: 500;
+            }
+            .message{
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: space-between;
+                .personalMsg{
+                    width: 100%;
+                    height: 40rpx;
+                    display: flex;
+                    image{
+                        width: 40rpx;
+                        height: 40rpx;
+                        display: block;
+                        border-radius: 100%;
+                    }
+                    .nickName{
+                        width: auto;
+                        height: 100%;
+                        font-size: 18rpx;
+                        line-height: 40rpx;
+                        color: #979797;
+                        margin-left: 4rpx;
+                    }
+                }
+                .browsing{
+                    width: 100%;
+                    height: 38rpx;
+                    display: flex;
+                    justify-content: flex-end;
+                    image{
+                        width: 20rpx;
+                        height: 16rpx;
+                        display: block;
+                        align-self: center;
+                    }
+                    .count{
+                        width: auto;
+                        height: 100%;
+                        font-size: 18rpx;
+                        line-height: 40rpx;
+                        color: #979797;
+                        margin-left: 4rpx;
+                    }
+                }
+            }
+        }
+        .module:last-of-type{
+            margin-bottom: 0;
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "attention": "/pages/index/index-attention/attention",
+    "finegoods": "/pages/index/index-finegoods/finegoods",
+    "badgoods": "/pages/index/index-badgoods/badgoods"
+  }
+}

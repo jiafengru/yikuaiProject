@@ -1,0 +1,68 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/coopen/coopen"
+		},
+		{
+			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/community/index",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+		{
+			"path": "pages/publish/index"
+		},
+		{
+			"path": "pages/news/index",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"disableScroll": true,
+				"backgroundColorBottom": "#D2DBD9"
+			}
+		},
+		{
+			"path": "pages/personal/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "pages/articleDetails/",
+			"pages": [{
+				"path": "pages/fineArticle/fineArticle"
+			}]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "一块",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff"
+	},
+	"tabBar": {
+		"custom": true,
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "广场"
+			},
+			{
+				"pagePath": "pages/community/index",
+				"text": "社区"
+			},
+			{
+				"pagePath": "pages/news/index",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/personal/index",
+				"text": "我的"
+			}
+		]
+	}
+}
